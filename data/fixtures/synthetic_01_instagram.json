@@ -1,0 +1,20 @@
+{
+  "username": "synthetic_01",
+  "biography": "Ultra-marathoner and distributed systems builder. Finding calm in long mountain climbs. | linkedin.com/in/synthetic-01",
+  "externalUrl": "https://linkedin.com/in/synthetic-01",
+  "followersCount": 1420,
+  "posts": [
+    {
+      "id": "post_01_1",
+      "caption": "Early morning start exploring Trail Running. Feeling grateful for the space to create and reflect. #lifestyle #focus"
+    },
+    {
+      "id": "post_01_2",
+      "caption": "Diving deep into Coffee Roasting this weekend. The craft is in the patience and consistency."
+    },
+    {
+      "id": "post_01_3",
+      "caption": "Work week wrapped up at Apex Core Systems. Time for good books, fresh air, and quality conversations."
+    }
+  ]
+}

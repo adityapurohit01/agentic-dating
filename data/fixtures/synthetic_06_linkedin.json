@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 06 (SYNTHETIC)",
+  "headline": "Documentary Filmmaker",
+  "summary": "I am a dedicated professional with deep expertise in my field. Telling stories of indigenous communities and wilderness conservation.",
+  "experience": [
+    {
+      "title": "Documentary Filmmaker",
+      "company": "Reel Roots Media",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Reel Roots Media."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Film Editing",
+    "Rock Climbing",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

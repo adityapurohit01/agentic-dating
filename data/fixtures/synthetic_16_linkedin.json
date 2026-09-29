@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 16 (SYNTHETIC)",
+  "headline": "Robotics Engineer & Drone Builder",
+  "summary": "I am a dedicated professional with deep expertise in my field. Building perception algorithms for autonomous search-and-rescue quadcopters.",
+  "experience": [
+    {
+      "title": "Robotics Engineer",
+      "company": "AeroAutonomous",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at AeroAutonomous."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "FPV Drones",
+    "3D Printing",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

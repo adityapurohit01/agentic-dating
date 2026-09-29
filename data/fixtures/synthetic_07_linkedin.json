@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 07 (SYNTHETIC)",
+  "headline": "Sommelier & Farm-to-Table Chef",
+  "summary": "I am a dedicated professional with deep expertise in my field. Natural wines, fermented foods, and gathering good souls around long dinner tables.",
+  "experience": [
+    {
+      "title": "Sommelier",
+      "company": "L'Etoile Bistro",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at L'Etoile Bistro."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Natural Wine",
+    "Gardening",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

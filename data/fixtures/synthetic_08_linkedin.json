@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 08 (SYNTHETIC)",
+  "headline": "Space Systems Engineer",
+  "summary": "I am a dedicated professional with deep expertise in my field. Propulsion mechanics, lunar payloads, and reading hard sci-fi under starry skies.",
+  "experience": [
+    {
+      "title": "Space Systems Engineer",
+      "company": "Orbital Dynamics",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Orbital Dynamics."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Astronomy",
+    "Amateur Radio",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 13 (SYNTHETIC)",
+  "headline": "Specialty Coffee Roaster",
+  "summary": "I am a dedicated professional with deep expertise in my field. Chasing single-origin Ethiopian varietals. Vinyl collector and road cyclist.",
+  "experience": [
+    {
+      "title": "Specialty Coffee Roaster",
+      "company": "Origin Roasters",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Origin Roasters."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Vinyl Collecting",
+    "Espresso Profiling",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

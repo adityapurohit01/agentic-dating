@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 24 (SYNTHETIC)",
+  "headline": "Urban Planner & Transit Advocate",
+  "summary": "I am a dedicated professional with deep expertise in my field. Passionate about light rail corridors and walkable neighborhoods. Urban sketcher.",
+  "experience": [
+    {
+      "title": "Urban Planner",
+      "company": "Metropolitan Transit Bureau",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Metropolitan Transit Bureau."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Urban Sketching",
+    "Transit Photography",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

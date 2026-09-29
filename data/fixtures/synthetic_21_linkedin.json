@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 21 (SYNTHETIC)",
+  "headline": "Cybersecurity Analyst",
+  "summary": "I am a dedicated professional with deep expertise in my field. Reverse-engineering malware and threat modeling. Mechanical keyboard enthusiast.",
+  "experience": [
+    {
+      "title": "Cybersecurity Analyst",
+      "company": "Defensive Cyber Shield",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Defensive Cyber Shield."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Lockpicking",
+    "Mechanical Keyboards",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

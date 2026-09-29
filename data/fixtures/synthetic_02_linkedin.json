@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 02 (SYNTHETIC)",
+  "headline": "Ceramic Artist & Botanical Archivist",
+  "summary": "I am a dedicated professional with deep expertise in my field. Throwing porcelain, tending to rare ferns, and appreciating slow craftsmanship.",
+  "experience": [
+    {
+      "title": "Ceramic Artist",
+      "company": "Studio Terra",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Studio Terra."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Ceramics",
+    "Botanical Foraging",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

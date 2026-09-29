@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+.env
+.env*.local
+*.local
+data/app.db*
+data/media/
+*.log
+docs/screens/*.tmp
+.tempmediaStorage/
+.system_generated/
+.DS_Store
+Thumbs.db
+*.tsbuildinfo

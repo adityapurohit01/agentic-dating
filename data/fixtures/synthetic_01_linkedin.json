@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 01 (SYNTHETIC)",
+  "headline": "Software Architect & Trail Runner",
+  "summary": "I am a dedicated professional with deep expertise in my field. Ultra-marathoner and distributed systems builder. Finding calm in long mountain climbs.",
+  "experience": [
+    {
+      "title": "Software Architect",
+      "company": "Apex Core Systems",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Apex Core Systems."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Trail Running",
+    "Coffee Roasting",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

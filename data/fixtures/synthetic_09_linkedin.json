@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 09 (SYNTHETIC)",
+  "headline": "Landscape Architect & Urban Greener",
+  "summary": "I am a dedicated professional with deep expertise in my field. Transforming concrete into public canopy. Bike commuter and weekend painter.",
+  "experience": [
+    {
+      "title": "Landscape Architect",
+      "company": "Verdant Cities Studio",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Verdant Cities Studio."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Watercolor",
+    "Bikepacking",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

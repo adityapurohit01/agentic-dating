@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 11 (SYNTHETIC)",
+  "headline": "High School History Teacher",
+  "summary": "I am a dedicated professional with deep expertise in my field. Bringing civil war diaries to life. Board game strategist and community organizer.",
+  "experience": [
+    {
+      "title": "High School History Teacher",
+      "company": "Oakridge Academy",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Oakridge Academy."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Board Games",
+    "Woodworking",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 20 (SYNTHETIC)",
+  "headline": "Sports Physical Therapist",
+  "summary": "I am a dedicated professional with deep expertise in my field. Helping marathoners cross finish lines pain-free. Kettlebell coach and cold plunge fan.",
+  "experience": [
+    {
+      "title": "Sports Physical Therapist",
+      "company": "Elevate Performance Clinic",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Elevate Performance Clinic."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Kettlebells",
+    "Surfing",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

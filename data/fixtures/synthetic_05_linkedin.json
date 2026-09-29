@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 05 (SYNTHETIC)",
+  "headline": "Quantitative Researcher & Jazz Pianist",
+  "summary": "I am a dedicated professional with deep expertise in my field. Probability models by day, modal jazz chords by night. Looking for genuine curiosity.",
+  "experience": [
+    {
+      "title": "Quantitative Researcher",
+      "company": "Vanguard Quant Labs",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Vanguard Quant Labs."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Jazz Piano",
+    "Chess",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

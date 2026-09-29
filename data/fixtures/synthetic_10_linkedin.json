@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 10 (SYNTHETIC)",
+  "headline": "Investigative Journalist",
+  "summary": "I am a dedicated professional with deep expertise in my field. Digging for truth in public records. Avid podcast listener and long-distance swimmer.",
+  "experience": [
+    {
+      "title": "Investigative Journalist",
+      "company": "The Daily Inquirer",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at The Daily Inquirer."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Open Water Swimming",
+    "Archival Research",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

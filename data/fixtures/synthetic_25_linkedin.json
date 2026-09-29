@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 25 (SYNTHETIC)",
+  "headline": "Wilderness Survival Instructor",
+  "summary": "I am a dedicated professional with deep expertise in my field. Friction fires, shelter craft, and teaching people to feel safe in old-growth forests.",
+  "experience": [
+    {
+      "title": "Wilderness Survival Instructor",
+      "company": "Cascadia Survival School",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Cascadia Survival School."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Bushcraft",
+    "Orienteering",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

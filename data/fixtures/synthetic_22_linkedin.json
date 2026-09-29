@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 22 (SYNTHETIC)",
+  "headline": "Bioethicist & Medical Humanities Fellow",
+  "summary": "I am a dedicated professional with deep expertise in my field. Questioning AI in genomic editing. Long philosopher walks and foreign cinema.",
+  "experience": [
+    {
+      "title": "Bioethicist",
+      "company": "Institute of Biomedical Ethics",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Institute of Biomedical Ethics."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Film Analysis",
+    "Creative Nonfiction",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}

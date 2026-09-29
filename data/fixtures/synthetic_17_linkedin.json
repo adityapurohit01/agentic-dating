@@ -1,0 +1,25 @@
+{
+  "name": "Synthetic 17 (SYNTHETIC)",
+  "headline": "Graphic Novelist & Illustrator",
+  "summary": "I am a dedicated professional with deep expertise in my field. Inking fantasy worlds with dip pens. Green tea lover and indie bookstore regular.",
+  "experience": [
+    {
+      "title": "Graphic Novelist",
+      "company": "Pantheon Press",
+      "duration": "2019 - Present",
+      "description": "Leading key projects and mentoring team members at Pantheon Press."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    "Ink Drawing",
+    "Manga Translation",
+    "Strategic Thinking",
+    "Collaboration"
+  ]
+}
