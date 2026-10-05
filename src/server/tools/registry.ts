@@ -6,6 +6,13 @@ import { runFullPipeline } from "../jobs/pipeline";
 export const ToolRegistry = {
   get_profile: {
     description: "Fetch complete structured persona and facts for a candidate by ID or name",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+      title: "Get candidate profile",
+    },
     schema: z.object({
       person_id: z.string().describe("Candidate ID or name"),
     }),
@@ -29,6 +36,13 @@ export const ToolRegistry = {
 
   recall_memory: {
     description: "Search candidate's memory store using BM25 FTS5 search",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+      title: "Recall candidate memory",
+    },
     schema: z.object({
       person_id: z.string(),
       query: z.string().describe("Keyword search term"),
@@ -41,6 +55,13 @@ export const ToolRegistry = {
 
   write_memory: {
     description: "Store an episodic lesson or fact in the candidate's memory",
+    annotations: {
+      readOnlyHint: false,
+      destructiveHint: false,
+      idempotentHint: false,
+      openWorldHint: false,
+      title: "Write candidate memory",
+    },
     schema: z.object({
       person_id: z.string(),
       content: z.string(),
@@ -60,6 +81,13 @@ export const ToolRegistry = {
 
   list_rankings: {
     description: "Retrieve compatibility rankings for a given candidate",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+      title: "List compatibility rankings",
+    },
     schema: z.object({
       person_id: z.string(),
     }),
@@ -87,6 +115,13 @@ export const ToolRegistry = {
 
   get_date: {
     description: "Get full date transcript, reviews, and judge analysis by date ID",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false,
+      title: "Get date analysis",
+    },
     schema: z.object({
       date_id: z.string(),
     }),
@@ -110,6 +145,13 @@ export const ToolRegistry = {
 
   start_pipeline: {
     description: "Trigger the autonomous agentic dating pipeline",
+    annotations: {
+      readOnlyHint: false,
+      destructiveHint: false,
+      idempotentHint: false,
+      openWorldHint: true,
+      title: "Start dating pipeline",
+    },
     schema: z.object({
       from_stage: z.enum(["collect", "read", "round1", "reflect", "round2", "rank"]).optional().default("collect"),
     }),
