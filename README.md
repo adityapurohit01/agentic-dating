@@ -1,5 +1,7 @@
 # Agentic Dating: Grounded Autonomous AI Matchmaker
 
+[![M8ven Verified](https://m8ven.ai/badge/mcp/adityapurohit01-agentic-dating-1vxx0e?variant=verified)](https://m8ven.ai/mcp/adityapurohit01-agentic-dating-1vxx0e?s=readme)
+
 An autonomous agentic dating platform where each candidate is represented by an AI agent that extracts psychological personas from exactly two public sources (LinkedIn & public Instagram), engages in multi-round simulated dates with other agents, and calculates grounded compatibility rankings with cited proof.
 
 ---
