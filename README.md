@@ -183,3 +183,11 @@ Profile-only vs transcript-informed rankings show 16 position differences across
 4. **Synthetic Fixtures Disclosure:** All built-in mock candidates are explicitly labelled `SYNTHETIC: for tests only`. Real data is never fabricated.
 5. **Full Purge Capability:** Deleting a candidate cascades to immediately remove all database records, downloaded media files, and memory embeddings.
 
+## 8. Security & Privacy
+
+- MCP tools publish explicit behavior annotations for read-only, destructive, idempotent, and open-world behavior.
+- MCP calls have per-tool in-process rate limits; the pipeline trigger is limited to one call per minute.
+- The MCP server uses stdio and does not expose a remote HTTP listener.
+- See [PRIVACY.md](./PRIVACY.md) for data handling details.
+- See [LICENSE](./LICENSE) for the project license.
+
