@@ -8,6 +8,7 @@ import { checkIdentityMatch } from "../src/server/connectors/identity";
 import { sanitizeText } from "../src/server/reader/safety";
 import { calculateVoiceMetrics } from "../src/server/voice/metrics";
 import { addMemoryItem, recallMemory } from "../src/server/memory/store";
+import { ToolRegistry } from "../src/server/tools/registry";
 
 describe("Mock LLM Provider", () => {
   it("satisfies structured object generation with schema validation", async () => {
@@ -115,5 +116,41 @@ describe("FTS5 Memory Store", () => {
     const results = recallMemory(person.id, "mountaineering", 5);
     expect(results.length).toBeGreaterThan(0);
     expect(results[0].content).toContain("mountaineering");
+  });
+});
+
+
+describe("MCP tool registry", () => {
+  it("declares all six tools with complete MCP behavior annotations", () => {
+    const tools = {
+      get_profile: ToolRegistry.get_profile,
+      recall_memory: ToolRegistry.recall_memory,
+      write_memory: ToolRegistry.write_memory,
+      list_rankings: ToolRegistry.list_rankings,
+      get_date: ToolRegistry.get_date,
+      start_pipeline: ToolRegistry.start_pipeline,
+    };
+
+    expect(Object.keys(tools)).toHaveLength(6);
+
+    for (const tool of Object.values(tools)) {
+      expect(tool.description).toBeTruthy();
+      expect(tool.annotations).toEqual(
+        expect.objectContaining({
+          readOnlyHint: expect.any(Boolean),
+          destructiveHint: expect.any(Boolean),
+          idempotentHint: expect.any(Boolean),
+          openWorldHint: expect.any(Boolean),
+        })
+      );
+    }
+
+    expect(tools.get_profile.annotations.readOnlyHint).toBe(true);
+    expect(tools.recall_memory.annotations.readOnlyHint).toBe(true);
+    expect(tools.write_memory.annotations.readOnlyHint).toBe(false);
+    expect(tools.list_rankings.annotations.readOnlyHint).toBe(true);
+    expect(tools.get_date.annotations.readOnlyHint).toBe(true);
+    expect(tools.start_pipeline.annotations.readOnlyHint).toBe(false);
+    expect(tools.start_pipeline.annotations.openWorldHint).toBe(true);
   });
 });
